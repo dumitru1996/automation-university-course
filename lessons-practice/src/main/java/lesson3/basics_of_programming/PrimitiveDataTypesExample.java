@@ -1,4 +1,4 @@
-package lesson4.basics_of_programming;
+package lesson3.basics_of_programming;
 
 public class PrimitiveDataTypesExample {
 
@@ -13,7 +13,7 @@ public class PrimitiveDataTypesExample {
     char myChar; // takes char value as 'a', 'B', '#', '\u0000' in Unicode
     boolean myBoolean; // takes true or false
 
-    public void binaryOperands(){
+    public static void binaryOperands(){
         System.out.println(8 / 3);
         System.out.println(41 / 5);
 
@@ -25,14 +25,14 @@ public class PrimitiveDataTypesExample {
         System.out.println(-(100 + 4));
     }
 
-    public void assignmentOperands(){
+    public static void assignmentOperands(){
         int n = 10;
         n = n + 4;
         n += 4;
         n /= 2;
     }
 
-    public void logicalOperands(){
+    public static void logicalOperands(){
         // OR operand
         boolean b1;
         b1= false || false;
@@ -52,7 +52,7 @@ public class PrimitiveDataTypesExample {
         boolean b4 = !b3;
     }
 
-    public void relationalOperands(){
+    public static void relationalOperands(){
         int one = 1, two = 2, three = 3, four = 4;
 
         boolean oneIsOne = one == one; //true
@@ -61,7 +61,7 @@ public class PrimitiveDataTypesExample {
         boolean response3 = three > four; //false
     }
 
-    public void prefixAndPostfix(){
+    public static void prefixAndPostfix(){
         int n = 10;
         n++; // equals to n += 1
         n--;
@@ -71,7 +71,7 @@ public class PrimitiveDataTypesExample {
         System.out.println(n);
     }
 
-    public void escapeSequence(){
+    public static void escapeSequence(){
         System.out.println("\tprtining a tab");
         System.out.println("\nprinting new line");
         System.out.println("\\"); //prints one backslash
@@ -79,7 +79,7 @@ public class PrimitiveDataTypesExample {
         System.out.println("\'"); //prints single quote
     }
 
-    public void ternaryOperands(){
+    public static void ternaryOperands(){
         int number = 10;
         System.out.println(number % 2 == 0 ? "even" : "odd"); // condition ? trueCase : falseCase
     }
