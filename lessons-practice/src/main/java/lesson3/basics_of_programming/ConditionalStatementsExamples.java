@@ -1,31 +1,31 @@
-package lesson4.basics_of_programming;
+package lesson3.basics_of_programming;
 
 public class ConditionalStatementsExamples {
 
-    public void ifStatement(){
+    public static void ifStatement() {
         int myAge = 21;
 
-        if(myAge > 100){ // expression inside if can be true or false
+        if (myAge > 100) { // expression inside if can be true or false
             System.out.println("Expired");
         }
     }
 
-    public void ifElseStatement(){
+    public static void ifElseStatement() {
         int number = 20;
 
-        if(number % 2 == 0){
+        if (number % 2 == 0) {
             System.out.println("even");
         } else {
             System.out.println("odd");
         }
     }
 
-    public void ifElseIfStatement(){
+    public static void ifElseIfStatement() {
         int income = 10_000;
 
-        if(income < 7_000){
+        if (income < 7_000) {
             System.out.println("Bad work, change it!");
-        } else if (income < 15_000){
+        } else if (income < 15_000) {
             System.out.println("Not enough, work harder!");
         } else if (income < 25_000) {
             System.out.println("Pretty good");
@@ -34,10 +34,10 @@ public class ConditionalStatementsExamples {
         }
     }
 
-    public void switchStatement(){
+    public static void switchStatement() {
         int season = 3;
 
-        switch (season){
+        switch (season) {
             case 1:
                 System.out.println("Spring");
                 break;
@@ -55,7 +55,7 @@ public class ConditionalStatementsExamples {
         }
     }
 
-    public void forLoopExample(){
+    public static void forLoopExample() {
         int num = 9;
         //  for(initialization; condition; modification)
         for (int i = 0; i < num; i++) {
@@ -63,31 +63,31 @@ public class ConditionalStatementsExamples {
         }
     }
 
-    public void nastedLoopExample(){
+    public static void nastedLoopExample() {
         for (int i = 0; i <= 10; i++) {
             for (int j = 0; j <= 10; j++) {
-                System.out.print(i *j + "\t");
+                System.out.print(i * j + "\t");
             }
             System.out.println();
         }
     }
 
-    public void whileLoopExample(){
+    public static void whileLoopExample() {
         char myChar = 'A';
 
-        while (myChar <= 'Z'){
+        while (myChar <= 'Z') {
             System.out.print(myChar + "\t");
             myChar++;
         }
     }
 
-    public void doWhileLoopExample(){
+    public static void doWhileLoopExample() {
         int n = 10;
 
         do {
             --n;
             System.out.println("There is " + n + " seconds left");
-        } while (n>=0); //check the last iteration
+        } while (n >= 0); //check the last iteration
     }
 
     public static void main(String[] args) {

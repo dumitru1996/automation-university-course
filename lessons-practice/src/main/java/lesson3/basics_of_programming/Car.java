@@ -1,4 +1,4 @@
-package lesson4.basics_of_programming;
+package lesson3.basics_of_programming;
 
 public class Car {
     String model; // instance variable
