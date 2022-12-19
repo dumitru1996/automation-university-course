@@ -11,6 +11,7 @@
     <modules>
         <module>lessons-practice</module>
         <module>junit-practice</module>
+        <module>ui-automation</module>
     </modules>
 
     <properties>
