@@ -13,6 +13,7 @@
         <module>junit-practice</module>
         <module>ui-automation</module>
         <module>oop-concepts</module>
+        <module>collections-practice</module>
     </modules>
 
     <properties>
