@@ -56,11 +56,23 @@ public class UtilsClasses {
         List<Person> sortedListByAge = listOfPersons
                         .stream()
                         .sorted((pers1,pers2)->pers1.compareTo(pers2))//compareTo() method from Person class
-                        .collect(Collectors.toList());
+                        .toList();
         sortedListByAge.forEach(System.out::println);
+    }
+
+    public static void sortPersonsByAge() {
+        Collections.sort(listOfPersons, new AgeComparator());//sort persons by giving the list to be sorted and teh instance of class that implements Comparator
+        for (Person person : listOfPersons) {
+            System.out.println(person.getFirstName() +
+                    " " + person.getLastName() +
+                    " " + person.getId() +
+                    " " + person.getAge());
+        }
     }
 
     public static void main(String[] args) {
         findElementsInCommon();
+        sortPersonsByAge();
+        comparePersonFromList();
     }
 }

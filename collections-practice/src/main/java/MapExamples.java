@@ -2,6 +2,7 @@
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 public class MapExamples {
@@ -32,6 +33,19 @@ public class MapExamples {
     public static void replaceValue() {
         mapOfObjects.replace("firstKey", "twelfth");
         System.out.println("Display modified map " + mapOfObjects);
+    }
+
+    public static void replaceOnCondition(Object value){
+        if(mapOfObjects.containsValue(value)){
+            System.out.println(mapOfObjects
+                    .entrySet()
+                    .stream()
+                    .filter(element -> element.getValue().equals(value))
+                    .findFirst()
+                    .get().getKey());
+        }else{
+            throw new NoSuchElementException();
+        }
     }
 
     public static void getElementByKeyFromMap() {
