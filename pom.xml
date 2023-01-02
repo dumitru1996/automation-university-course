@@ -15,6 +15,7 @@
         <module>oop-concepts</module>
         <module>collections-practice</module>
         <module>design-patterns</module>
+        <module>webservice</module>
     </modules>
 
     <properties>
