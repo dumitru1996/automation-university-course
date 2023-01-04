@@ -29,13 +29,13 @@ public class TestPetStoreAPI {
 
     @Test
     public void postFileToItem() {
-        File file = new File("src/test/resources/MicrosoftTeams-image (4).png");
+        File file = new File("src/test/resources/bengal_cat.png");
         Response response = given()
                 .param("additionalMetadata","file")
                 .multiPart("file", file, "multipart/form-data")
                 .post(path + endpointForFile)
                 .thenReturn();
-        assertTrue(response.asPrettyString().contains("MicrosoftTeams-image (4).png"));
+        assertTrue(response.asPrettyString().contains("bengal_cat.png"));
     }
 
     @Test
