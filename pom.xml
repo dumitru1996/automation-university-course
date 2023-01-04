@@ -16,6 +16,7 @@
         <module>collections-practice</module>
         <module>design-patterns</module>
         <module>webservice</module>
+        <module>bdd-practice</module>
     </modules>
 
     <properties>
