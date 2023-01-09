@@ -17,6 +17,7 @@
         <module>design-patterns</module>
         <module>webservice</module>
         <module>bdd-practice</module>
+        <module>input-output-practice</module>
     </modules>
 
     <properties>
