@@ -1,4 +1,4 @@
-package service.readers.writers;
+package service.readers_writers;
 
 import java.io.BufferedWriter;
 import java.io.Writer;

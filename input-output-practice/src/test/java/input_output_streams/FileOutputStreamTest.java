@@ -1,7 +1,7 @@
-package input.output.streams;
+package input_output_streams;
 
 import service.file.FileService;
-import service.input.output.streams.FileOutputStreamService;
+import service.input_output_streams.FileOutputStreamService;
 
 import java.io.File;
 import java.io.IOException;

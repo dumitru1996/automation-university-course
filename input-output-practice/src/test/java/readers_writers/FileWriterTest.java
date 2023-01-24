@@ -1,7 +1,7 @@
-package readers.writers;
+package readers_writers;
 
 import service.file.FileService;
-import service.readers.writers.FileWriterService;
+import service.readers_writers.FileWriterService;
 
 import java.io.File;
 import java.io.IOException;

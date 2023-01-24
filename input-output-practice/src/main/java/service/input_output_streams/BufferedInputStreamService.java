@@ -1,4 +1,4 @@
-package service.input.output.streams;
+package service.input_output_streams;
 
 import java.io.BufferedInputStream;
 import java.io.InputStream;
