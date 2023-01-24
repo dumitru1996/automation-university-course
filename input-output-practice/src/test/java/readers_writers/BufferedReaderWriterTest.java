@@ -1,9 +1,9 @@
-package readers.writers;
+package readers_writers;
 
-import service.readers.writers.BufferedReaderService;
-import service.readers.writers.BufferedWriterService;
-import service.readers.writers.FileReaderService;
-import service.readers.writers.FileWriterService;
+import service.readers_writers.BufferedReaderService;
+import service.readers_writers.BufferedWriterService;
+import service.readers_writers.FileReaderService;
+import service.readers_writers.FileWriterService;
 
 import java.io.File;
 import java.io.IOException;

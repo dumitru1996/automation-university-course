@@ -1,10 +1,10 @@
-package input.output.streams;
+package input_output_streams;
 
 import service.file.FileService;
-import service.input.output.streams.BufferedInputStreamService;
-import service.input.output.streams.BufferedOutputStreamService;
-import service.input.output.streams.FileInputStreamService;
-import service.input.output.streams.FileOutputStreamService;
+import service.input_output_streams.BufferedInputStreamService;
+import service.input_output_streams.BufferedOutputStreamService;
+import service.input_output_streams.FileInputStreamService;
+import service.input_output_streams.FileOutputStreamService;
 
 import java.io.IOException;
 
